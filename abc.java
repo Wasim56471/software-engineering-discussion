@@ -33,6 +33,22 @@ public class Question3 {
 		
 		return min;
 	}
+}
+// is Odd function added
+   isOdd();
+	}
+	static int isOdd() {
+		Scanner input=new Scanner(System.in);
+		int x;
+		do {
+			 x=input.nextInt();
+			if(x%2!=0)
+				System.out.println("the number is odd");
+			else 
+				System.out.println("the number is even");
+		}while(x!=-1);
+		return x;
+	}
 
 }
 

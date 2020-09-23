@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Question3 {
+public class abc {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -43,9 +43,9 @@ public class Question3 {
 		do {
 			 x=input.nextInt();
 			if(x%2!=0)
-				System.out.println("the number is odd");
+				System.out.println("the " x " is odd");
 			else 
-				System.out.println("the number is even");
+				System.out.println("the " x " is even");
 		}while(x!=-1);
 		return x;
 	}

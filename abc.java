@@ -1,9 +1,10 @@
 import java.util.Scanner;
-public class abc {
+public class Question3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-      System.out.println("the smallest number is "+smallest()+"\n");
+      		System.out.println("the smallest number is "+smallest()+"\n");
+		isOdd();
 	}
 	static double smallest() {
 		Scanner input=new Scanner(System.in);
@@ -13,15 +14,13 @@ public class abc {
 		double y=input.nextDouble();
 		System.out.println("enter your third number"+"\n");
 		double z=input.nextDouble();
-			System.out.println("enter your second number"+"\n");
+		System.out.println("enter your second number"+"\n");
 		double f=input.nextDouble();
 		System.out.println("enter your third number"+"\n");
 		double o=input.nextDouble();
 		return Math.min(Math.min(x, y), Math.min(Math.min(f, o), z));
 	}
-}
-     System.out.println(minFunction(1,2));
-	}
+
 	public static int minFunction(int n1, int n2) {
 		int min;
 		if(n1>n2) 
@@ -33,19 +32,18 @@ public class abc {
 		
 		return min;
 	}
-}
+
 // is Odd function added
-   isOdd();
-	}
 	static int isOdd() {
 		Scanner input=new Scanner(System.in);
-		int x;
+		System.out.println("Enter a number: ");
+		int x = input.nextInt();
 		do {
-			 x=input.nextInt();
+			x=input.nextInt();
 			if(x%2!=0)
-				System.out.println("the " x " is odd");
+				System.out.println("the number is odd");
 			else 
-				System.out.println("the " x " is even");
+				System.out.println("the number is even");
 		}while(x!=-1);
 		return x;
 	}

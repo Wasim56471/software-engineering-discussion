@@ -13,3 +13,15 @@ public class Question3 {
 		double y=input.nextDouble();
 		System.out.println("enter your third number"+"\n");
 		double z=input.nextDouble();
+			System.out.println("enter your second number"+"\n");
+		double f=input.nextDouble();
+		System.out.println("enter your third number"+"\n");
+		double o=input.nextDouble();
+		return Math.min(Math.min(x, y), Math.min(Math.min(f, o), z));
+	}
+	
+	
+	
+
+}
+

@@ -19,9 +19,21 @@ public class Question3 {
 		double o=input.nextDouble();
 		return Math.min(Math.min(x, y), Math.min(Math.min(f, o), z));
 	}
-	
-	
-	
+}
+     System.out.println(minFunction(1,2));
+	}
+	public static int minFunction(int n1, int n2) {
+		int min;
+		if(n1>n2) 
+			 min=n2;
+		
+		else 
+			min=n1;
+			
+		
+		return min;
+	}
 
 }
+
 
